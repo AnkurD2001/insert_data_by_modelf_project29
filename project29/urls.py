@@ -24,3 +24,7 @@ urlpatterns = [
     path('insert_webpage/',insert_webpage,name='insert_webpage'),
     path('insert_AccessRecord/',insert_AccessRecord,name='insert_AccessRecord')
 ]
+
+admin.site.site_header='Topic Webpage AccessRecord'
+admin.site.site_title='Tirle Change'
+admin.site.index_title='Ankur is the adminstration'
